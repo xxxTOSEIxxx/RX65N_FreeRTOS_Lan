@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Pin">
+        <Setting id="PB3" value="ET0_RX_ER"/>
+        <Setting id="PC4" value="ET0_TX_CLK"/>
+        <Setting id="PB2" value="ET0_RX_CLK"/>
+        <Setting id="PC3" value="ET0_TX_ER"/>
+        <Setting id="PB5" value="ET0_ETXD0"/>
+        <Setting id="PC6" value="ET0_ETXD3"/>
+        <Setting id="PA4" value="ET0_MDC"/>
+        <Setting id="PC5" value="ET0_ETXD2"/>
+        <Setting id="PA3" value="ET0_MDIO"/>
+        <Setting id="PB4" value="ET0_TX_EN"/>
+        <Setting id="PB7" value="ET0_CRS"/>
+        <Setting id="PC7" value="ET0_COL"/>
+        <Setting id="PB6" value="ET0_ETXD1"/>
+        <Setting id="PA5" value="ET0_LINKSTA"/>
+        <Setting id="P36" value="EXTAL"/>
+        <Setting id="P37" value="XTAL"/>
+        <Setting id="PC0" value="ET0_ERXD3"/>
+        <Setting id="PB1" value="ET0_ERXD0"/>
+        <Setting id="PC2" value="ET0_RX_DV"/>
+        <Setting id="PB0" value="ET0_ERXD1"/>
+        <Setting id="PC1" value="ET0_ERXD2"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RX600"/>
+        <Setting id="Group" value="RX65N"/>
+        <Setting id="Board" value="HSBRX65N176_V1.00 (1.00)"/>
+        <Setting id="PartNo" value="R5F565NEDxFC"/>
+        <Setting id="PinCount" value="176"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="PCLKD" value="60000.0"/>
+        <Setting id="CacMCLK" value="24000.0"/>
+        <Setting id="PCLKB" value="60000.0"/>
+        <Setting id="VCC" value="3.3"/>
+        <Setting id="PCLKC" value="60000.0"/>
+        <Setting id="BusCLK" value="120000.0"/>
+        <Setting id="PCLKA" value="120000.0"/>
+        <Setting id="ICLK" value="120000.0"/>
+        <Setting id="FCLK" value="60000.0"/>
+        <Setting id="SysCLKSrc" value="4.0"/>
+        <Setting id="ExtCLK" value="24000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value="FIT"/>
+        <Setting id="r_cmt_rx" value="FIT"/>
+        <Setting id="r_ether_rx" value="FIT"/>
+        <Setting id="FreeRTOS_Object" value=""/>
+        <Setting id="r_t4_rx" value="FIT"/>
+        <Setting id="r_t4_driver_rx" value="FIT"/>
+        <Setting id="r_sys_time_rx" value="FIT"/>
+        <Setting id="FreeRTOS_Kernel" value=""/>
+    </Segment>
+</QE>
